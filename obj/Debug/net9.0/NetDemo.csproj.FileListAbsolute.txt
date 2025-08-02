@@ -94,3 +94,4 @@ C:\Users\ALONSO\Desktop\NetDemo\obj\Debug\net9.0\NetDemo.pdb
 C:\Users\ALONSO\Desktop\NetDemo\obj\Debug\net9.0\NetDemo.genruntimeconfig.cache
 C:\Users\ALONSO\Desktop\NetDemo\obj\Debug\net9.0\ref\NetDemo.dll
 C:\Users\ALONSO\Desktop\NetDemo\obj\Debug\net9.0\compressed\e890jzpssk-b9sayid5wm.gz
+C:\Users\ALONSO\Desktop\NetDemo\obj\Debug\net9.0\NetDemo.sourcelink.json

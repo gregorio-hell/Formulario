@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div>
+        <form asp-action="Registrar" asp-controller="Home">
+            <input type="text" name="nombre" placeholder="Enter">
+            <button type="submid">Submit</button>
+        </form>
+    </div>
+        <div></div>
+        <label>Edad:</label>
+        <input type="number" name="edad" min="1" max="120" required />
+    </div>
+    <div>
+        <label>Años de experiencia en juegos:</label>
+        <input type="number" name="aniosJuego" min="0" required />
+    </div>
+        <div></div>
+        <label>Frecuencia de juego:</label>
+        <select name="frecuenciaJuego" required>
+            <option value="Diario">Diario</option>
+            <option value="Semanal">Semanal</option>
+            <option value="Mensual">Mensual</option>
+        </select>
+    </div>
+    <p>@ViewData["mensaje"]</p>
+</div>

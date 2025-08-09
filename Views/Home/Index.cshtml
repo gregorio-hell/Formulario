@@ -4,21 +4,17 @@
 
 
 
-<h2>Formulario de Registro</h2>
-<form asp-action="Registrar" asp-controller="Home">
+
+<h2>Formulario de Contacto</h2>
+<form asp-action="Contacto" asp-controller="Home">
     <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required><br><br>
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad" name="edad" min="1" max="120" required><br><br>
-    <label for="aniosJuego">Años de experiencia en juegos:</label>
-    <input type="number" id="aniosJuego" name="aniosJuego" min="0" required><br><br>
-    <label for="frecuenciaJuego">Frecuencia de juego:</label>
-    <select id="frecuenciaJuego" name="frecuenciaJuego" required>
-        <option value="" disabled selected>Selecciona una opción</option>
-        <option value="Diario">Diario</option>
-        <option value="Semanal">Semanal</option>
-        <option value="Mensual">Mensual</option>
-    </select><br><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" placeholder="tu@email.com" required><br><br>
+    <label for="asunto">Asunto:</label>
+    <input type="text" id="asunto" name="asunto" placeholder="Asunto" required><br><br>
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
     <button type="submit">Enviar</button>
 </form>
 <p>@ViewData["mensaje"]</p>
